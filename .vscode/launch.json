@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "UT: testSuite",
+            "type": "python",
+            "request": "launch",
+            "module": "unittest",
+            "args":["tests/unit_test/testSuite.py"],
+            "justMyCode": true
+        }
+    ]
+}

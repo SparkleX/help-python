@@ -7,8 +7,6 @@ def suite():
     suite = unittest.TestSuite()
     suite.addTest(TestStringMethods('test_default_widget_size'))
     suite.addTest(TestSample('TestSample'))
-
-    
     return suite
 
 if __name__ == '__main__':
